@@ -352,6 +352,45 @@ CMakeFiles/oop10.dir/mainwindow.cpp.obj: \
  D:/QT/Tools/mingw_64_2/include/QtGui/qcursor.h \
  D:/QT/Tools/mingw_64_2/include/QtGui/qbitmap.h \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QDir \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qdir.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qfile.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qfiledevice.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qiodevice.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/filesystem \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_fwd.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_path.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
+ D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/quoted_string.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_dir.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qfileinfo.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qdatetime.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qcalendar.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qlocale.h \
  C:/Users/drego/Documents/oop10/build/SEREGA-Debug/oop10_autogen/include/ui_mainwindow.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/QVariant \
  D:/QT/Tools/mingw_64_2/include/QtCore/qvariant.h \
@@ -364,13 +403,77 @@ CMakeFiles/oop10.dir/mainwindow.cpp.obj: \
  D:/QT/Tools/mingw_64_2/include/QtCore/qcoreapplication_platform.h \
  D:/QT/Tools/mingw_64_2/include/QtGui/qguiapplication.h \
  D:/QT/Tools/mingw_64_2/include/QtGui/qinputmethod.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qlocale.h \
  D:/QT/Tools/mingw_64_2/include/QtGui/qguiapplication_platform.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QHBoxLayout \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qboxlayout.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qlayout.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qlayoutitem.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qboxlayout.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qgridlayout.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QLineEdit \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qlineedit.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qframe.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtextcursor.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qurl.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtextformat.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qpen.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtextoption.h \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/QMenuBar \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/qmenubar.h \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/qmenu.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QPlainTextEdit \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qplaintextedit.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qtextedit.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qabstracttextdocumentlayout.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtextlayout.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qevent.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qpointer.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qeventpoint.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qvector2d.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qvectornd.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qpointingdevice.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qinputdevice.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qscreen.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QList \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qlist.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QObject \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qobject.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QRect \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qrect.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QSize \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qsize.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QSizeF \
+ D:/QT/Tools/mingw_64_2/include/QtGui/QTransform \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtransform.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qglyphrun.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qrawfont.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qfontdatabase.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QProgressBar \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qprogressbar.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QPushButton \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qpushbutton.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qabstractbutton.h \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/QStatusBar \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/qstatusbar.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QVBoxLayout \
  D:/QT/Tools/mingw_64_2/include/QtWidgets/QWidget \
- D:/QT/Tools/mingw_64_2/include/QtWidgets/qwidget.h
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
+ C:\Users\drego\Documents\oop10\textprocessor.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QString \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qstring.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QSet \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qset.h \
+ C:\Users\drego\Documents\oop10\comparer.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QFileDialog \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qfiledialog.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qdir.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QFile \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qfile.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QTextStream \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qtextstream.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QMessageBox \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qmessagebox.h

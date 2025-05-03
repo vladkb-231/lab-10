@@ -11,9 +11,53 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Plagiarism Checker</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="inputLayout">
+      <item>
+       <widget class="QLineEdit" name="inputPathEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="browseInput">
+        <property name="text">
+         <string>Выбрать файл...</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="samplesLayout">
+      <item>
+       <widget class="QLineEdit" name="samplesDirEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="browseSamples">
+        <property name="text">
+         <string>Выбрать папку...</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="checkButton">
+      <property name="text">
+       <string>Проверить на плагиат</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QProgressBar" name="progressBar"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="resultsText"/>
+    </item>
+   </layout>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>

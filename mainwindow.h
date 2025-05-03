@@ -2,22 +2,29 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QDir>
 
-QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
-QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+private slots:
+    void on_browseInput_clicked();
+    void on_browseSamples_clicked();
+    void on_checkButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+    QString inputPath;
+    QString samplesDir;
 };
+
 #endif // MAINWINDOW_H

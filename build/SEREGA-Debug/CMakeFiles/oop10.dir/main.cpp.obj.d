@@ -1,7 +1,10 @@
 CMakeFiles/oop10.dir/main.cpp.obj: \
  C:\Users\drego\Documents\oop10\main.cpp \
- D:/QT/Tools/mingw_64_2/include/QtCore/QCoreApplication \
- D:/QT/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \
+ C:\Users\drego\Documents\oop10\mainwindow.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qmainwindow.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qtwidgetsglobal.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtguiglobal.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qglobal.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -135,50 +138,32 @@ CMakeFiles/oop10.dir/main.cpp.obj: \
  D:/QT/Tools/mingw_64_2/include/QtCore/qtresource.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qttranslation.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qversiontagging.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qstring.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qchar.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/unordered_map \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtgui-config.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtguiexports.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qtwidgets-config.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qtwidgetsexports.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qwindowdefs.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qobjectdefs.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qnamespace.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qtmetamacros.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qobjectdefs_impl.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable_policy.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qstringview.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qbytearray.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qrefcount.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qnamespace.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qtmetamacros.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qarraydata.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qpair.h \
- D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/string.h \
- D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qarraydatapointer.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qarraydataops.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qcontainertools_impl.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qxptype_traits.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/align.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bit \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
@@ -189,18 +174,9 @@ CMakeFiles/oop10.dir/main.cpp.obj: \
  D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_stat64.h \
  D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/swprintf.inl \
  D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
- D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/locale.h \
- D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/stdio.h \
- D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
- D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/ctype.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
@@ -218,6 +194,56 @@ CMakeFiles/oop10.dir/main.cpp.obj: \
  D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_compat.h \
  D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_unistd.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/auto_ptr.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qwindowdefs_win.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qobject.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qstring.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qchar.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/unordered_map \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable_policy.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qstringview.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qbytearray.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qrefcount.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qarraydata.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qpair.h \
+ D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/string.h \
+ D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qarraydatapointer.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qarraydataops.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qcontainertools_impl.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qxptype_traits.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf_iterator.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
+ D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/locale.h \
+ D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/stdio.h \
+ D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
+ D:/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include/ctype.h \
+ D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
@@ -236,19 +262,6 @@ CMakeFiles/oop10.dir/main.cpp.obj: \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/streambuf.tcc \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/align.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bit \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/concurrence.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/auto_ptr.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
- D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qbytearrayalgorithms.h \
@@ -264,11 +277,6 @@ CMakeFiles/oop10.dir/main.cpp.obj: \
  D:/QT/Tools/mingw_64_2/include/QtCore/qutf8stringview.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qstringtokenizer.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qstringbuilder.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qcoreevent.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qobjectdefs.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qobjectdefs_impl.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qeventloop.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qobject.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qlist.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qhashfunctions.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric \
@@ -303,26 +311,49 @@ CMakeFiles/oop10.dir/main.cpp.obj: \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- D:/QT/Tools/mingw_64_2/include/QtCore/qnativeinterface.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qmargins.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qaction.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qkeysequence.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qicon.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qsize.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qpixmap.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qpaintdevice.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qrect.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qpoint.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qcolor.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qrgb.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qrgba64.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qsharedpointer.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qshareddata.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qsharedpointer_impl.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qimage.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qpixelformat.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qtransform.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qpolygon.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qregion.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qline.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qvariant.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qdebug.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qtextstream.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qstringconverter_base.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qcontiguouscache.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qsharedpointer.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qshareddata.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qsharedpointer_impl.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qmap.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qshareddata_impl.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qset.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qhash.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qvarlengtharray.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/q20memory.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qcoreapplication_platform.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/QCommandLineParser \
- D:/QT/Tools/mingw_64_2/include/QtCore/qcommandlineparser.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qcommandlineoption.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/QFile \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qpalette.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qbrush.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qfont.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qfontmetrics.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qfontinfo.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qsizepolicy.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qcursor.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qbitmap.h \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/QDir \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qdir.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qfile.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qfiledevice.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qiodevice.h \
@@ -356,21 +387,17 @@ CMakeFiles/oop10.dir/main.cpp.obj: \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/codecvt \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_dir.h \
  D:/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/QTextStream \
- D:/QT/Tools/mingw_64_2/include/QtCore/qtextstream.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/QDir \
- D:/QT/Tools/mingw_64_2/include/QtCore/qdir.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qfile.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qfileinfo.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qdatetime.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qcalendar.h \
  D:/QT/Tools/mingw_64_2/include/QtCore/qlocale.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/qvariant.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/QDebug \
- D:/QT/Tools/mingw_64_2/include/QtCore/qdebug.h \
- C:\Users\drego\Documents\oop10\textprocessor.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/QString \
- D:/QT/Tools/mingw_64_2/include/QtCore/qstring.h \
- D:/QT/Tools/mingw_64_2/include/QtCore/QSet \
- D:/QT/Tools/mingw_64_2/include/QtCore/qset.h \
- C:\Users\drego\Documents\oop10\comparer.h
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/QApplication \
+ D:/QT/Tools/mingw_64_2/include/QtWidgets/qapplication.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qcoreevent.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qeventloop.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qnativeinterface.h \
+ D:/QT/Tools/mingw_64_2/include/QtCore/qcoreapplication_platform.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qguiapplication.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qinputmethod.h \
+ D:/QT/Tools/mingw_64_2/include/QtGui/qguiapplication_platform.h

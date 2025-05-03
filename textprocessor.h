@@ -10,4 +10,6 @@ public:
     static QSet<QString> createShingles(const QString& text, int shingleSize);
 };
 
+
+
 #endif // TEXTPROCESSOR_H
