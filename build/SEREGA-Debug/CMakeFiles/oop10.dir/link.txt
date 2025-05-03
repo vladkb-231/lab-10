@@ -1,0 +1,3 @@
+D:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\oop10.dir/objects.a
+D:\QT\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\oop10.dir/objects.a @CMakeFiles\oop10.dir\objects1.rsp
+D:\QT\Tools\mingw1120_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\oop10.dir/objects.a -Wl,--no-whole-archive -o oop10.exe -Wl,--out-implib,liboop10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\oop10.dir\linkLibs.rsp
