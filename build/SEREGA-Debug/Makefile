@@ -199,6 +199,30 @@ oop10_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10_autogen.dir\build.make CMakeFiles/oop10_autogen.dir/build
 .PHONY : oop10_autogen/fast
 
+comparer.obj: comparer.cpp.obj
+.PHONY : comparer.obj
+
+# target to build an object file
+comparer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10.dir\build.make CMakeFiles/oop10.dir/comparer.cpp.obj
+.PHONY : comparer.cpp.obj
+
+comparer.i: comparer.cpp.i
+.PHONY : comparer.i
+
+# target to preprocess a source file
+comparer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10.dir\build.make CMakeFiles/oop10.dir/comparer.cpp.i
+.PHONY : comparer.cpp.i
+
+comparer.s: comparer.cpp.s
+.PHONY : comparer.s
+
+# target to generate assembly for a file
+comparer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10.dir\build.make CMakeFiles/oop10.dir/comparer.cpp.s
+.PHONY : comparer.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -271,6 +295,30 @@ oop10_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10.dir\build.make CMakeFiles/oop10.dir/oop10_autogen/mocs_compilation.cpp.s
 .PHONY : oop10_autogen/mocs_compilation.cpp.s
 
+textprocessor.obj: textprocessor.cpp.obj
+.PHONY : textprocessor.obj
+
+# target to build an object file
+textprocessor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10.dir\build.make CMakeFiles/oop10.dir/textprocessor.cpp.obj
+.PHONY : textprocessor.cpp.obj
+
+textprocessor.i: textprocessor.cpp.i
+.PHONY : textprocessor.i
+
+# target to preprocess a source file
+textprocessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10.dir\build.make CMakeFiles/oop10.dir/textprocessor.cpp.i
+.PHONY : textprocessor.cpp.i
+
+textprocessor.s: textprocessor.cpp.s
+.PHONY : textprocessor.s
+
+# target to generate assembly for a file
+textprocessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop10.dir\build.make CMakeFiles/oop10.dir/textprocessor.cpp.s
+.PHONY : textprocessor.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -286,6 +334,9 @@ help:
 	@echo ... oop10_autogen
 	@echo ... oop10_autogen_timestamp_deps
 	@echo ... oop10
+	@echo ... comparer.obj
+	@echo ... comparer.i
+	@echo ... comparer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -295,6 +346,9 @@ help:
 	@echo ... oop10_autogen/mocs_compilation.obj
 	@echo ... oop10_autogen/mocs_compilation.i
 	@echo ... oop10_autogen/mocs_compilation.s
+	@echo ... textprocessor.obj
+	@echo ... textprocessor.i
+	@echo ... textprocessor.s
 .PHONY : help
 
 

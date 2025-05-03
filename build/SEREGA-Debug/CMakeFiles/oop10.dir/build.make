@@ -120,11 +120,43 @@ CMakeFiles/oop10.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop10.dir/mainwindow.cpp.s"
 	D:\QT\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drego\Documents\oop10\mainwindow.cpp -o CMakeFiles\oop10.dir\mainwindow.cpp.s
 
+CMakeFiles/oop10.dir/comparer.cpp.obj: CMakeFiles/oop10.dir/flags.make
+CMakeFiles/oop10.dir/comparer.cpp.obj: CMakeFiles/oop10.dir/includes_CXX.rsp
+CMakeFiles/oop10.dir/comparer.cpp.obj: C:/Users/drego/Documents/oop10/comparer.cpp
+CMakeFiles/oop10.dir/comparer.cpp.obj: CMakeFiles/oop10.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\drego\Documents\oop10\build\SEREGA-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oop10.dir/comparer.cpp.obj"
+	D:\QT\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop10.dir/comparer.cpp.obj -MF CMakeFiles\oop10.dir\comparer.cpp.obj.d -o CMakeFiles\oop10.dir\comparer.cpp.obj -c C:\Users\drego\Documents\oop10\comparer.cpp
+
+CMakeFiles/oop10.dir/comparer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop10.dir/comparer.cpp.i"
+	D:\QT\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drego\Documents\oop10\comparer.cpp > CMakeFiles\oop10.dir\comparer.cpp.i
+
+CMakeFiles/oop10.dir/comparer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop10.dir/comparer.cpp.s"
+	D:\QT\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drego\Documents\oop10\comparer.cpp -o CMakeFiles\oop10.dir\comparer.cpp.s
+
+CMakeFiles/oop10.dir/textprocessor.cpp.obj: CMakeFiles/oop10.dir/flags.make
+CMakeFiles/oop10.dir/textprocessor.cpp.obj: CMakeFiles/oop10.dir/includes_CXX.rsp
+CMakeFiles/oop10.dir/textprocessor.cpp.obj: C:/Users/drego/Documents/oop10/textprocessor.cpp
+CMakeFiles/oop10.dir/textprocessor.cpp.obj: CMakeFiles/oop10.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\drego\Documents\oop10\build\SEREGA-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oop10.dir/textprocessor.cpp.obj"
+	D:\QT\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/oop10.dir/textprocessor.cpp.obj -MF CMakeFiles\oop10.dir\textprocessor.cpp.obj.d -o CMakeFiles\oop10.dir\textprocessor.cpp.obj -c C:\Users\drego\Documents\oop10\textprocessor.cpp
+
+CMakeFiles/oop10.dir/textprocessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/oop10.dir/textprocessor.cpp.i"
+	D:\QT\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\drego\Documents\oop10\textprocessor.cpp > CMakeFiles\oop10.dir\textprocessor.cpp.i
+
+CMakeFiles/oop10.dir/textprocessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/oop10.dir/textprocessor.cpp.s"
+	D:\QT\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\drego\Documents\oop10\textprocessor.cpp -o CMakeFiles\oop10.dir\textprocessor.cpp.s
+
 # Object files for target oop10
 oop10_OBJECTS = \
 "CMakeFiles/oop10.dir/oop10_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/oop10.dir/main.cpp.obj" \
-"CMakeFiles/oop10.dir/mainwindow.cpp.obj"
+"CMakeFiles/oop10.dir/mainwindow.cpp.obj" \
+"CMakeFiles/oop10.dir/comparer.cpp.obj" \
+"CMakeFiles/oop10.dir/textprocessor.cpp.obj"
 
 # External object files for target oop10
 oop10_EXTERNAL_OBJECTS =
@@ -132,6 +164,8 @@ oop10_EXTERNAL_OBJECTS =
 oop10.exe: CMakeFiles/oop10.dir/oop10_autogen/mocs_compilation.cpp.obj
 oop10.exe: CMakeFiles/oop10.dir/main.cpp.obj
 oop10.exe: CMakeFiles/oop10.dir/mainwindow.cpp.obj
+oop10.exe: CMakeFiles/oop10.dir/comparer.cpp.obj
+oop10.exe: CMakeFiles/oop10.dir/textprocessor.cpp.obj
 oop10.exe: CMakeFiles/oop10.dir/build.make
 oop10.exe: D:/QT/Tools/mingw_64_2/lib/libQt6Widgets.a
 oop10.exe: D:/QT/Tools/mingw_64_2/lib/libQt6Gui.a
@@ -140,7 +174,7 @@ oop10.exe: D:/QT/Tools/mingw_64_2/lib/libQt6EntryPoint.a
 oop10.exe: CMakeFiles/oop10.dir/linkLibs.rsp
 oop10.exe: CMakeFiles/oop10.dir/objects1.rsp
 oop10.exe: CMakeFiles/oop10.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\drego\Documents\oop10\build\SEREGA-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable oop10.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\drego\Documents\oop10\build\SEREGA-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable oop10.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oop10.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
